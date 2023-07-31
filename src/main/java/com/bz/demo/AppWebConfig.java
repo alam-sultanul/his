@@ -24,6 +24,7 @@ public class AppWebConfig implements WebMvcConfigurer {
         registry.addConverter(new BloodTypeConverter());
         registry.addConverter(new GenderConverter());
         registry.addConverter(new RelationTypeConverter());
+        registry.addConverter(new QuestionTypeConverter());
     }
 
     @Override
